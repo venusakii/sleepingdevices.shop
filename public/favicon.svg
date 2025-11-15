@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="moonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B7FD7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A5FC1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Moon shape -->
+  <circle cx="50" cy="50" r="35" fill="url(#moonGradient)"/>
+  <!-- Craters -->
+  <circle cx="40" cy="40" r="6" fill="#5A6FC7" opacity="0.5"/>
+  <circle cx="60" cy="48" r="4" fill="#5A6FC7" opacity="0.5"/>
+  <circle cx="48" cy="60" r="5" fill="#5A6FC7" opacity="0.5"/>
+  <!-- Stars -->
+  <circle cx="20" cy="25" r="2" fill="#FFF"/>
+  <circle cx="80" cy="30" r="2" fill="#FFF"/>
+  <circle cx="75" cy="70" r="1.5" fill="#FFF"/>
+  <circle cx="25" cy="75" r="1.5" fill="#FFF"/>
+</svg>
